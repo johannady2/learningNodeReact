@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="en">       
+<head>              
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Gradient Background Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>       
+<body id="gradient">        
+    <h1>Background Generator</h1> 
+      <input type="color" id="color1" name="color1" value="#DDFF77">
+        <input type="color" id="color2" name="color2" value="#FF94A1">
+        <br>
+        <button id="random">Randomize Colors</button>
+        <!-- alternative: We won't need to use addEventListener in the script.js file if we use this.
+         not recommend. Can only add one function per oninput. no seperation
+         of concerns. JS script inside HTML file.--->
+        <!--
+        <input type="color" oninput="setGradient()" id="color1" name="color1" value="#DDFF77">
+        <input type="color" oninput="setGradient()" id="color2" name="color2" value="#FF94A1">
+        -->
+
+        <h2>Current CSS Background</h2>
+    <h3></h3>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
