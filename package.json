@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/johannady2/learningNodeReact/issues"
   },
-  "homepage": "https://github.com/johannady2/learningNodeReact#readme"
+  "homepage": "https://github.com/johannady2/learningNodeReact#readme",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
 }
