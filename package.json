@@ -8,5 +8,14 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannady2/learningNodeReact.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/johannady2/learningNodeReact/issues"
+  },
+  "homepage": "https://github.com/johannady2/learningNodeReact#readme"
 }
